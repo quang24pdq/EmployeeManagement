@@ -1047,3 +1047,9 @@ C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\Clien
 C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\refint\Client.dll
 C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\Client.pdb
 C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\ref\Client.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm.gz
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\Client.sourcelink.json
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\webcil\AutoMapper.wasm
+C:\Users\quang\source\repos\DemoEmployeeManagement\Client\obj\Debug\net8.0\compressed\c4l7jbfus5.gz

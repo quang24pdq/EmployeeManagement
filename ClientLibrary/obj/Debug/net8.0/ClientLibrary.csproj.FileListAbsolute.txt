@@ -9,3 +9,4 @@ C:\Users\quang\source\repos\DemoEmployeeManagement\ClientLibrary\obj\Debug\net8.
 C:\Users\quang\source\repos\DemoEmployeeManagement\ClientLibrary\obj\Debug\net8.0\refint\ClientLibrary.dll
 C:\Users\quang\source\repos\DemoEmployeeManagement\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
 C:\Users\quang\source\repos\DemoEmployeeManagement\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\ClientLibrary\obj\Debug\net8.0\ClientLibrary.sourcelink.json

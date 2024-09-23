@@ -1,6 +1,4 @@
-﻿
-
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace BaseLibrary.Entities
 {
@@ -9,7 +7,10 @@ namespace BaseLibrary.Entities
         public int Id { get; set; }
         public string? Name { get; set; }
 
+        [JsonIgnore]
+        public List<Employee>? employees { get; set; }
 
-    
+
+
     }
 }

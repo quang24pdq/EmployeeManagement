@@ -9,3 +9,5 @@ C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\
 C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
 C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
 C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.sourcelink.json

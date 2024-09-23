@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gU4qlH0lx2uNEkcM/PMaceIIFl4pcllXjE5nHoBmD/I=",
+  "Hash": "2HdMdHD6v+yJm7oagxZv9X6gFzKawkvdV0yqaaYIX7g=",
   "Source": "Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\obj\\Debug\\net8.0\\webcil\\AutoMapper.wasm"
+    },
     {
       "Identity": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BaseLibrary.pdb",
       "SourceId": "Client",
@@ -5297,6 +5316,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.8.c1tcu5to47.js"
+    },
+    {
+      "Identity": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\obj\\Debug\\net8.0\\compressed\\c4l7jbfus5.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoMapper.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoMapper.wasm"
     },
     {
       "Identity": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Client\\obj\\Debug\\net8.0\\compressed\\cetsow0872.gz",
