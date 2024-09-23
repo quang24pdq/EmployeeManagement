@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\serverlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\serverlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerLibrary",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\ServerLibrary.csproj",
+              "RelativeDocumentMoniker": "ServerLibrary\\ServerLibrary.csproj",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\ServerLibrary.csproj",
+              "RelativeToolTip": "ServerLibrary\\ServerLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T09:29:10.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

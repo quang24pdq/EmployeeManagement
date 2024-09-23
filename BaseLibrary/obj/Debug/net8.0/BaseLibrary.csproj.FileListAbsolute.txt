@@ -1,0 +1,11 @@
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+C:\Users\quang\source\repos\DemoEmployeeManagement\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
