@@ -120,7 +120,7 @@ namespace ServerLibrary.Repositories.Implementations
             return (T)result.Entity;
         }
 
-        public async Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
+        public async Task<LoginResponse> RefreshTokenAsunc(RefreshToken token)
         {
             if (token is null) return new LoginResponse(false, "Model is empty");
 

@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositories\\implementations\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\entities\\refreshtokeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\refreshtokeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\repositories\\contracts\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\helpers\\jwtsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\helpers\\jwtsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3F2BFD6-0E66-4E7D-859F-76A25A805B70}|Server\\Server.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C3F2BFD6-0E66-4E7D-859F-76A25A805B70}|Server\\Server.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3F2BFD6-0E66-4E7D-859F-76A25A805B70}|Server\\Server.csproj|solutionrelative:server\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\helpers\\jwtsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\helpers\\jwtsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\baselibrary\\dtos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,8 +107,8 @@
       "RelativeMoniker": "D:0:0:{D2EFDE5A-8A6C-456E-8D20-84DC8349D191}|BaseLibrary\\BaseLibrary.csproj|solutionrelative:baselibrary\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Data\\Migrations\\20240923043632_AddRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServerLibrary\\Data\\Migrations\\20240923043632_AddRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|c:\\users\\quang\\source\\repos\\demoemployeemanagement\\serverlibrary\\data\\migrations\\20240923043632_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017E7995-7EBE-4337-81CE-BC36B4FA18D7}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\migrations\\20240923043632_addroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,47 +118,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\RefreshToken.cs",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\RefreshToken.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:23:54.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RefreshTokenInfo.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:20:09.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "BaseLibrary\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:42:28.121Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 14,
@@ -169,8 +130,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:42:44.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T03:42:44.413Z"
             },
             {
               "$type": "Document",
@@ -180,14 +140,14 @@
               "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
               "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
               "RelativeToolTip": "ServerLibrary\\Repositories\\Implementations\\UserAccountRepository.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAIwJgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAwwIoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T03:27:32.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IUserAccount.cs",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Repositories\\Contracts\\IUserAccount.cs",
@@ -208,12 +168,11 @@
               "RelativeToolTip": "BaseLibrary\\DTOs\\Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:35:08.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:35:08.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "BaseLibrary\\Entities\\Employee.cs",
@@ -221,51 +180,11 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\Employee.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:10.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:10.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccountBase.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\AccountBase.cs",
-              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\AccountBase.cs",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\AccountBase.cs",
-              "RelativeToolTip": "BaseLibrary\\DTOs\\AccountBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:35:05.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:34:45.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T09:07:34.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "JwtSection.cs",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Helpers\\JwtSection.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Helpers\\JwtSection.cs",
@@ -278,7 +197,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:34:45.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshTokenInfo.cs",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "RelativeToolTip": "BaseLibrary\\Entities\\RefreshTokenInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:20:09.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "BaseLibrary\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:42:28.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\RefreshToken.cs",
+              "RelativeToolTip": "BaseLibrary\\DTOs\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:23:54.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountBase.cs",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\AccountBase.cs",
+              "RelativeDocumentMoniker": "BaseLibrary\\DTOs\\AccountBase.cs",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\BaseLibrary\\DTOs\\AccountBase.cs",
+              "RelativeToolTip": "BaseLibrary\\DTOs\\AccountBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:35:05.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T09:07:34.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\appsettings.json",
               "RelativeDocumentMoniker": "Server\\appsettings.json",
@@ -286,12 +279,11 @@
               "RelativeToolTip": "Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T08:09:13.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:09:13.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
@@ -299,12 +291,11 @@
               "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:23:08.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T04:23:08.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\Server\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\AuthenticationController.cs",
@@ -312,8 +303,7 @@
               "RelativeToolTip": "Server\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:29:04.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T04:29:04.154Z"
             },
             {
               "$type": "Document",
@@ -325,21 +315,19 @@
               "RelativeToolTip": "BaseLibrary\\DTOs\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:35:12.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:35:12.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "ServerLibrary",
+              "Title": "ServerLibrary.csproj",
               "DocumentMoniker": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\ServerLibrary.csproj",
               "RelativeDocumentMoniker": "ServerLibrary\\ServerLibrary.csproj",
               "ToolTip": "C:\\Users\\quang\\source\\repos\\DemoEmployeeManagement\\ServerLibrary\\ServerLibrary.csproj",
               "RelativeToolTip": "ServerLibrary\\ServerLibrary.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T08:42:53.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:42:53.96Z"
             },
             {
               "$type": "Document",
@@ -351,8 +339,7 @@
               "RelativeToolTip": "BaseLibrary\\Responses\\LoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:23.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:23.202Z"
             },
             {
               "$type": "Document",
@@ -364,8 +351,7 @@
               "RelativeToolTip": "BaseLibrary\\Responses\\GeneralResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:21.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:21.928Z"
             },
             {
               "$type": "Document",
@@ -377,8 +363,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:18.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:18.875Z"
             },
             {
               "$type": "Document",
@@ -390,8 +375,7 @@
               "RelativeToolTip": "ServerLibrary\\Helpers\\Constants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T03:58:55.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T03:58:55.385Z"
             },
             {
               "$type": "Document",
@@ -403,8 +387,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\Town.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:17.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:17.068Z"
             },
             {
               "$type": "Document",
@@ -416,8 +399,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\SystemRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:16.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:16.22Z"
             },
             {
               "$type": "Document",
@@ -429,8 +411,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\GeneralDepartment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:11.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:11.06Z"
             },
             {
               "$type": "Document",
@@ -442,8 +423,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:09.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:09.687Z"
             },
             {
               "$type": "Document",
@@ -455,8 +435,7 @@
               "RelativeToolTip": "BaseLibrary\\Entities\\Branch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:32:06.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T07:32:06.643Z"
             },
             {
               "$type": "Document",
@@ -468,8 +447,7 @@
               "RelativeToolTip": "ServerLibrary\\Data\\Migrations\\20240923043632_AddRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:36:32.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T04:36:32.351Z"
             }
           ]
         }
