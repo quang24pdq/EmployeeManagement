@@ -14,6 +14,6 @@ namespace ServerLibrary.Repositories.Contracts
 
         Task<LoginResponse> SignInAsync(Login user);
 
-        Task<LoginResponse> RefreshTokenAsunc(RefreshToken token);
+        Task<LoginResponse> RefreshTokenAsync(RefreshToken token);
     }
 }

@@ -1,6 +1,13 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@using Microsoft.AspNetCore.Components.Authorization
+<CascadingAuthenticationState>
+
+    <Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+       <AuthorizeRouterView RouteData ="@routeData" DefaultLayout = "@rypeof(MainLayout)">
+           <Authorizing>
+               Please wait a 
+           </Authorizing>
+       </AuthorizeRouterView>
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
@@ -10,3 +17,4 @@
         </LayoutView>
     </NotFound>
 </Router>
+</CascadingAuthenticationState>

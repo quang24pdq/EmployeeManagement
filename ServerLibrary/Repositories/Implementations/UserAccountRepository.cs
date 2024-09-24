@@ -27,10 +27,10 @@ namespace ServerLibrary.Repositories.Implementations
 
         public async Task<GeneralResponse> CreateAsync(Register user)
         {
-            if (user is null) return new GeneralResponse(false, "Model is empty");
+            if (user is null) return new GeneralResponse(false, " Mô hình trống");
 
             var checkUser = await FindUserByEmail(user.Email!);
-            if (checkUser != null) return new GeneralResponse(false, "User registered already");
+            if (checkUser != null) return new GeneralResponse(false, "Người dùng đã được đăng ký");
 
             var applicationUser = await AddToDatabase(new ApplicationUser()
             {
@@ -44,7 +44,7 @@ namespace ServerLibrary.Repositories.Implementations
             {
                 var createAdminRole = await AddToDatabase(new SystemRole() { Name = Constants.Admin });
                 await AddToDatabase(new UserRole() { RoleId = createAdminRole.Id, UserId = applicationUser.Id });
-                return new GeneralResponse(true, "Account created!");
+                return new GeneralResponse(true, "Tài khoản đã được tạo!");
             }
 
             var checkUserRole = await appDbContext.SystemRoles.FirstOrDefaultAsync(_ => _.Name!.Equals(Constants.User));
@@ -58,28 +58,42 @@ namespace ServerLibrary.Repositories.Implementations
             {
                 await AddToDatabase(new UserRole() { RoleId = checkUserRole.Id, UserId = applicationUser.Id });
             }
-            return new GeneralResponse(true, "Account Created");
+            return new GeneralResponse(true, "Tài khoản đã được tạo!");
         }
 
         public async Task<LoginResponse> SignInAsync(Login user)
         {
-            if (user is null) return new LoginResponse(false, "Model is empty");
+            if (user is null) return new LoginResponse(false, "Mô hình rỗng");
 
             var applicationUser = await FindUserByEmail(user.Email!);
-            if (applicationUser is null) return new LoginResponse(false, "User not found");
+            if (applicationUser is null) return new LoginResponse(false, "Không tìm thấy người dùng");
 
             if (!BCrypt.Net.BCrypt.Verify(user.Password, applicationUser.Password))
-                return new LoginResponse(false, "Email/Password not valid");
+                return new LoginResponse(false, "Email/Mật khẩu không hợp lệ");
 
             var getUserRole = await FindUserRole(applicationUser.Id);
-            if (getUserRole is null) return new LoginResponse(false, "User role not found");
+            if (getUserRole is null) return new LoginResponse(false, "Không tìm thấy vai trò người dùng");
 
             var getRoleName = await FindRoleName(getUserRole.RoleId);
-            if (getRoleName is null) return new LoginResponse(false, "User role not found");
+            if (getRoleName is null) return new LoginResponse(false, "Không tìm thấy vai trò người dùng");
 
             string jwtToken = GenerateToken(applicationUser, getRoleName.Name!);
             string refreshToken = GenerateRefreshToken();
-            return new LoginResponse(true, "Login Successfully", jwtToken, refreshToken);
+
+            var findUser = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.UserId == applicationUser.Id);
+            if (findUser != null)
+            {
+                findUser.Token = refreshToken;
+                appDbContext.RefreshTokenInfos.Update(findUser); // Cập nhật lại token mới
+            }
+            else
+            {
+                // Thêm mới bản ghi RefreshToken nếu không tồn tại
+                await AddToDatabase(new RefreshTokenInfo() { Token = refreshToken, UserId = applicationUser.Id });
+            }
+
+            await appDbContext.SaveChangesAsync();
+            return new LoginResponse(true, "Đăng nhập thành công", jwtToken, refreshToken);
         }
 
         private string GenerateToken(ApplicationUser user, string role)
@@ -120,34 +134,39 @@ namespace ServerLibrary.Repositories.Implementations
             return (T)result.Entity;
         }
 
-        public async Task<LoginResponse> RefreshTokenAsunc(RefreshToken token)
+        public async Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
         {
-            if (token is null) return new LoginResponse(false, "Model is empty");
+            if (token is null) return new LoginResponse(false, "Mô hình trống");
 
             var findToken = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.Token!.Equals(token.Token));
-            if (findToken is null) return new LoginResponse(false, "Refresh token is required");
+            if (findToken is null) return new LoginResponse(false, " làm mới mã thông báo");
 
             var user = await appDbContext.ApplicationUsers.FirstOrDefaultAsync(_ => _.Id == findToken.UserId);
-            if (user is null) return new LoginResponse(false, "Refresh token could not be generated because user not found");
+            if (user is null) return new LoginResponse(false, "Token làm mới không thể tạo vì không tìm thấy người dùng");
 
             var userRole = await FindUserRole(user.Id);
-            if (userRole is null) return new LoginResponse(false, "User role not found");
+            if (userRole is null) return new LoginResponse(false, "Không tìm thấy vai trò người dùng");
 
             var roleName = await FindRoleName(userRole.RoleId);
-            if (roleName is null) return new LoginResponse(false, "Role name not found");
+            if (roleName is null) return new LoginResponse(false, "Không tìm thấy vai trò người dùng");
+
 
             string jwtToken = GenerateToken(user, roleName.Name!);
             string refreshToken = GenerateRefreshToken();
 
             var updateRefreshToken = await appDbContext.RefreshTokenInfos.FirstOrDefaultAsync(_ => _.UserId == user.Id);
-            if (updateRefreshToken is null) return new LoginResponse(false, "Refresh token could not be updated because user has not signed in");
+            if (updateRefreshToken is null) return new LoginResponse(false, "Token làm mới không thể tạo vì không tìm thấy người dùng");
 
             // Cập nhật refresh token vào cơ sở dữ liệu
             updateRefreshToken.Token = refreshToken;
             appDbContext.RefreshTokenInfos.Update(updateRefreshToken);
             await appDbContext.SaveChangesAsync();
 
-            return new LoginResponse(true, "Token refreshed successfully", jwtToken, refreshToken);
+            return new LoginResponse(true, "Token đã được thêm thành công", jwtToken, refreshToken);
         }
+
+        
+
+      
     }
 }
